@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Aclonica', sans-serif;
+    /* font-family: 'Poppins'; */
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url('https://img.freepik.com/premium-photo/thermometer-climate-change-heat-wave-concept-3d-renderingxa_35719-7737.jpg?size=626&ext=jpg&ga=GA1.1.1893428023.1693663615&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b886cb;
+  }
+  
+  .wrapper{
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 7px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  input, select{
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
